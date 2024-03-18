@@ -3,18 +3,19 @@
 #include <locale.h>
 
 int main(){
-	setlocale(LC_ALL, "");
+    setlocale(LC_ALL, "");
 	
-	int numero, antecessor, sucessor;
+    int numero, antecessor, sucessor;
 	
-	printf("Digite um número: ");
-	scanf("%i",&numero);
+    printf("Digite um nÃºmero: ");
+    scanf("%i",&numero);
 	
-	antecessor = numero - 1;
-	sucessor = numero + 1;
-	
-	printf("=== Exibindo resultados ===\n");
-    printf("Número: %i \n", numero);
+    antecessor = numero - 1;
+    sucessor = numero + 1;
+
+    system("cls||clear");
+    printf("=== Exibindo resultados ===\n");
+    printf("NÃºmero: %i \n", numero);
     printf("Antecessor: %i \n", antecessor);
     printf("Sucessor: %i \n", sucessor);
     
