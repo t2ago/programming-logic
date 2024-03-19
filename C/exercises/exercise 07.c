@@ -36,7 +36,7 @@ int main(){
 	printf("Primeira nota: %.1f \n", primeiraNota);
 	printf("Segundo nota: %.1f \n", segundaNota);
 	printf("Terceira nota: %.1f \n", terceiraNota);
-	printf("Média do aluno: %.1f \n", media);
+	printf("MÃ©dia do aluno: %.1f \n", media);
 	
 	if (media < 7) {
 		printf("REPROVADO!");
