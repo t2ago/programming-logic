@@ -7,7 +7,7 @@ int main(){
 	
 	float valor, reajuste = 0.9, valorFinal;
 	
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%f",&valor);
     
     valorFinal = valor * reajuste;
