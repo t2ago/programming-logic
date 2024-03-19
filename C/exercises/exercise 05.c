@@ -7,15 +7,15 @@ int main(){
 	
 	float salario, salariosMinimos;
 	
-	printf("Digite o seu sal·rio: ");
+	printf("Digite o seu sal√°rio: ");
 	scanf("%f",&salario);
 	
 	salariosMinimos = salario / 1412;
 	
 	system("cls||clear");
 	printf("=== Exibindo resultados ===\n");
-	printf("Sal·rio: %3.f \n", salario);
-	printf("Salarios mÌnimos: %f \n", salariosMinimos);
+	printf("Sal√°rio: %3.f \n", salario);
+	printf("Salarios m√≠nimos: %f \n", salariosMinimos);
 	
 	return 0;
 }
