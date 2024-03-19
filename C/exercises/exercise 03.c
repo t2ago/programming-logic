@@ -7,7 +7,7 @@ int main(){
 	
 	int numero;
 	
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%i",&numero);
 	
 	printf("=== Exibindo resultados ===\n");
@@ -15,7 +15,7 @@ int main(){
 	if (numero % 2 == 0) {
 		printf("Par.");
 	} else {
-		printf("Ímpar.");
+		printf("Ãmpar.");
 	}
 	
 	return 0;
