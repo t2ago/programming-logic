@@ -2,21 +2,21 @@
 #include <locale.h>
 
 int main(){
-	// linguagêm
+	// linguagÃªm
 	setlocale(LC_ALL, "portuguese");
 	
-    // variáveis
+    // variÃ¡veis
     float primeiroNumero, segundoNumero;
     float soma, subtracao, multiplicacao, divisao;
 
     // solicitando dados
-    printf("Digite o primeiro número: ");
+    printf("Digite o primeiro nÃºmero: ");
     scanf("%f",&primeiroNumero);
 
-    printf("Digite o segundo número: ");
+    printf("Digite o segundo nÃºmero: ");
     scanf("%f",&segundoNumero);
     
-    // cálculos
+    // cÃ¡lculos
     soma = primeiroNumero + segundoNumero;
     subtracao = primeiroNumero - segundoNumero;
     multiplicacao = primeiroNumero * segundoNumero;
@@ -25,12 +25,12 @@ int main(){
     // exibindo dados
     system("cls||clear");
     printf("=== Exibindo resultados ===\n");
-    printf("Primeiro número: %f \n", primeiroNumero);
-    printf("Segundo número: %f \n", segundoNumero);
+    printf("Primeiro nÃºmero: %f \n", primeiroNumero);
+    printf("Segundo nÃºmero: %f \n", segundoNumero);
     printf("Soma = %f \n", soma);
-    printf("Subtração = %f \n", subtracao);
-    printf("Multiplicação = %f \n", multiplicacao);
-    printf("Divisão = %f \n", divisao);
+    printf("SubtraÃ§Ã£o = %f \n", subtracao);
+    printf("MultiplicaÃ§Ã£o = %f \n", multiplicacao);
+    printf("DivisÃ£o = %f \n", divisao);
     
     return 0;
 }
