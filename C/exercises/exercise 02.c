@@ -2,10 +2,10 @@
 #include <locale.h>
 
 int main(){
-	// linguagêm
+	// linguagÃªm
 	setlocale(LC_ALL, "portuguese");
 	
-	// variáveis
+	// variÃ¡veis
 	char aluno[200];
 	int idade;
 	float primeiraNota, segundaNota, terceiraNota, quartaNota, media;
@@ -31,7 +31,7 @@ int main(){
 	printf("Quarta nota: ");
 	scanf("%f",&quartaNota);
 	
-	// cálculos
+	// cÃ¡lculos
 	media = (primeiraNota + segundaNota + terceiraNota + quartaNota) / 4;
 	
 	// exibindo resultados
@@ -43,5 +43,5 @@ int main(){
 	printf("Segundo nota: %f \n", segundaNota);
 	printf("Terceira nota: %f \n", terceiraNota);
 	printf("Quarta nota: %f \n", quartaNota);
-	printf("Média do aluno: %f \n", media);
+	printf("MÃ©dia do aluno: %f \n", media);
 }
