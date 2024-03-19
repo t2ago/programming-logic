@@ -9,15 +9,15 @@ int main(){
 	int soma, produto, menorValor, maiorValor;
 	float media;
 	
-	printf("Digite o primeiro número: ");
+	printf("Digite o primeiro nÃºmero: ");
 	scanf("%i",&primeiroNumero);
 	
-	printf("Digite o segundo número: ");
+	printf("Digite o segundo nÃºmero: ");
 	scanf("%i",&segundoNumero);
 	
-	media = (primeiroNumero + segundoNumero) / 2;
 	soma = primeiroNumero + segundoNumero;
 	produto = primeiroNumero * segundoNumero;
+        media = soma / (float) 2;
 	
 	if (primeiroNumero > segundoNumero) {
 		maiorValor = primeiroNumero;
@@ -28,18 +28,18 @@ int main(){
 	}
 	system("cls||clear");
 	printf("=== Exibindo resultados ===\n");
-	printf("Primeiro número: %i \n", primeiroNumero);
-	printf("Segundo número: %i \n", segundoNumero);
-	printf("Média: %.2f \n", media);
+	printf("Primeiro nÃºmero: %i \n", primeiroNumero);
+	printf("Segundo nÃºmero: %i \n", segundoNumero);
+	printf("MÃ©dia: %.1f \n", media);
 	printf("Soma: %i \n", soma);
 	printf("Produto: %i \n", produto);
 	printf("Maior valor: %i \n", maiorValor);
 	printf("Menor valor: %i \n", menorValor);
 	
 	if (primeiroNumero == segundoNumero) {
-		printf("Os números são iguais!");
+		printf("Os nÃºmeros sÃ£o iguais!");
 	} else {
-		printf("Os números NÃO são iguais!");
+		printf("Os nÃºmeros NÃƒO sÃ£o iguais!");
 	}
 	
 	return 0;
