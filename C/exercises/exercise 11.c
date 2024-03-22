@@ -21,7 +21,7 @@ int main () {
     if (macas < 12) {
     	printf("Valor total a pagar: R$ %.2f", valorMaca);
 	} else {
-		printf("Valor total a pagar: R$ %.2f", desconto);
+        printf("Valor total a pagar: R$ %.2f", desconto);
 	}
     
     return 0;
