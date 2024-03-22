@@ -16,16 +16,18 @@ int main () {
     
     system("cls||clear");
     
+    sexo = toupper (sexo); // Converte em mai√∫sculo
+
     switch (sexo) {
     	case 'M':
     		peso = (72.7 * altura) - 58;
     		printf("=== Exibindo Resultados ===\n");
-            printf("Seu peso ideal È: %.2f \n", peso);
+            printf("Seu peso ideal √©: %.2f \n", peso);
             break;
         case 'F':
         	peso = (62.1 * altura) - 44.7;
         	printf("=== Exibindo Resultados ===\n");
-            printf("Seu peso ideal È: %.2f \n", peso);
+            printf("Seu peso ideal √©: %.2f \n", peso);
             break;
         default :
         	printf("Sexo indefinido");
