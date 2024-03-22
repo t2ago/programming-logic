@@ -8,7 +8,7 @@ int main () {
     int macas;
     float valorMaca, desconto, valorTotal;
     
-    printf("Quantas maçãs voce quer comprar: ");
+    printf("Quantas maÃ§Ã£s voce quer comprar: ");
     scanf("%i",&macas);
 	    
     system("cls||clear");
@@ -17,7 +17,7 @@ int main () {
     desconto = macas * 1.00;
     
     printf("=== Exibindo resultados ===\n");
-    printf("Maçãs compradas: %i \n", macas);
+    printf("MaÃ§Ã£s compradas: %i \n", macas);
     if (macas < 12) {
     	printf("Valor total a pagar: R$ %.2f", valorMaca);
 	} else {
