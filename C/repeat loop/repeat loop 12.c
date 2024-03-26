@@ -8,7 +8,7 @@ int main() {
 	float notas, media, soma;
 	
 	for(i = 0; i < 3; i++) {
-		printf("Digite três notas: ");
+	    printf("Digite a %iÂ° nota: ", i + 1);
 	    scanf("%f",&notas);
 	    
 	    soma += notas;
@@ -18,15 +18,15 @@ int main() {
 	
 	system("cls||clear");
 	printf("=== Exibindo resultados ===\n");
-	printf("Média: %.2f \n", media);
+	printf("MÃ©dia: %.2f \n", media);
 	
 	if (media >= 7) {
-		printf("APROVADO!");
+	   printf("APROVADO!");
 	} else if (media >= 4 && media < 7) {
-		printf("RECUPERAÇÃO!");
+	   printf("RECUPERAÃ‡ÃƒO!");
 	} else {
-		printf("REPROVADO!");
+	   printf("REPROVADO!");
 	}
 	
-	return 0;
+ return 0;
 }
