@@ -8,7 +8,7 @@ int main() {
 	float notas, media, soma;
 	
 	for(i = 0; i < 3; i++) {
-	    printf("Digite a %i° nota: ", i + 1);
+	    printf("Digite a %iª nota: ", i + 1);
 	    scanf("%f",&notas);
 	    
 	    soma += notas;
